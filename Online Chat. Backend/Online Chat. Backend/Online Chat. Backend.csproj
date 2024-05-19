@@ -4,6 +4,7 @@
         <TargetFramework>net7.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>Online_Chat._Backend</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>

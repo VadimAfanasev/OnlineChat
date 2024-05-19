@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("OnlineChat")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Online Chat. Backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("OnlineChat")]
-[assembly: System.Reflection.AssemblyTitleAttribute("OnlineChat")]
+[assembly: System.Reflection.AssemblyProductAttribute("Online Chat. Backend")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Online Chat. Backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
