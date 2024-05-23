@@ -11,6 +11,8 @@ function App() {
     try{
       await connection.start();
       await connection.invoke("JoinChat", {userName, chatRoom});
+
+      console.log(connection);
     }
     catch(error){
       console.log(error);
@@ -18,7 +20,7 @@ function App() {
   };
   return (
   <div className="min-h-screen flex items-center justify-center bg-gray-100">
-    <WaitingRoom/>
+    <WaitingRoom joinChat={joinChat}/>
   </div>
   );
 }
