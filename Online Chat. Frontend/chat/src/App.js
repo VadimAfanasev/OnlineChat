@@ -4,7 +4,7 @@ import {HubConnectionBuilder} from "@microsoft/signalr";
 function App() {
   const joinChat = async (userName, chatRoom) =>{
     var connection = new HubConnectionBuilder()
-      .withUrl("http://localhost:8080/chat")
+      .withUrl("http://localhost:29621/chat")
       .withAutomaticReconnect()
       .build();
 

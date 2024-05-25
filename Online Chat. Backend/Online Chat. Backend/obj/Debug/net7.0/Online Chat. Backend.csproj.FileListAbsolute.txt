@@ -1,0 +1,33 @@
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\bin\Debug\net7.0\appsettings.Development.json
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\bin\Debug\net7.0\appsettings.json
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\bin\Debug\net7.0\Online Chat. Backend.exe
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\bin\Debug\net7.0\Online Chat. Backend.deps.json
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\bin\Debug\net7.0\Online Chat. Backend.runtimeconfig.json
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\bin\Debug\net7.0\Online Chat. Backend.dll
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\bin\Debug\net7.0\Online Chat. Backend.pdb
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\bin\Debug\net7.0\Microsoft.OpenApi.dll
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\obj\Debug\net7.0\Online Chat. Backend.csproj.AssemblyReference.cache
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\obj\Debug\net7.0\Online Chat. Backend.GeneratedMSBuildEditorConfig.editorconfig
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\obj\Debug\net7.0\Online Chat. Backend.AssemblyInfoInputs.cache
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\obj\Debug\net7.0\Online Chat. Backend.AssemblyInfo.cs
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\obj\Debug\net7.0\Online Chat. Backend.csproj.CoreCompileInputs.cache
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\obj\Debug\net7.0\Online Chat. Backend.MvcApplicationPartsAssemblyInfo.cs
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\obj\Debug\net7.0\Online Chat. Backend.MvcApplicationPartsAssemblyInfo.cache
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\obj\Debug\net7.0\staticwebassets\msbuild.Online Chat. Backend.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\obj\Debug\net7.0\staticwebassets\msbuild.build.Online Chat. Backend.props
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Online Chat. Backend.props
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Online Chat. Backend.props
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\obj\Debug\net7.0\staticwebassets.pack.json
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\obj\Debug\net7.0\staticwebassets.build.json
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\obj\Debug\net7.0\staticwebassets.development.json
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\obj\Debug\net7.0\scopedcss\bundle\Online Chat. Backend.styles.css
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\obj\Debug\net7.0\Online Chat. Backend.csproj.CopyComplete
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\obj\Debug\net7.0\Online Chat. Backend.dll
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\obj\Debug\net7.0\refint\Online Chat. Backend.dll
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\obj\Debug\net7.0\Online Chat. Backend.pdb
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\obj\Debug\net7.0\Online Chat. Backend.genruntimeconfig.cache
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\obj\Debug\net7.0\ref\Online Chat. Backend.dll
