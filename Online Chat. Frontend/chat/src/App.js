@@ -1,7 +1,10 @@
 import { WaitingRoom } from "./components/WaitingRoom";
 import {HubConnectionBuilder} from "@microsoft/signalr";
+import { useState } from "react";
 
 function App() {
+  const[connection, setConnection] = useState(null);
+
   const joinChat = async (userName, chatRoom) =>{
     var connection = new HubConnectionBuilder()
       .withUrl("http://localhost:29621/chat")
@@ -17,7 +20,7 @@ function App() {
       await connection.start();
       await connection.invoke("JoinChat", {userName, chatRoom});
 
-      console.log(connection);
+      setConnection(connection);
     }
     catch(error){
       console.log(error);
