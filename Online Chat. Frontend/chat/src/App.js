@@ -8,6 +8,11 @@ function App() {
       .withAutomaticReconnect()
       .build();
 
+    connection.on("ReceiveMessage", (userName, message) => {
+      console.log(userName);
+      console.log(message);
+    })
+
     try{
       await connection.start();
       await connection.invoke("JoinChat", {userName, chatRoom});
@@ -24,5 +29,6 @@ function App() {
   </div>
   );
 }
+
 
 export default App;
