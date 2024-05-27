@@ -1,4 +1,5 @@
 import { CloseButton, Heading } from "@chakra-ui/react";
+import { Message } from "./Message";
 
 export const Chat = ({messages, chatRoom, closeChat}) => {
     return (
@@ -8,10 +9,10 @@ export const Chat = ({messages, chatRoom, closeChat}) => {
                 <CloseButton onClick={closeChat} />
             </div>
             <div className="flex flex-col overflow-auto scroll-smooth h-96 gap-3 pb-3">
-                {messages.map(messageInfo, index => {
-                    <Message/>
-                })}
+                {messages.map((messageInfo, index) => (
+                    <Message messageInfo={messageInfo} key={index}/>
+                ))}
             </div>
         </div>
     );
-}
+};
