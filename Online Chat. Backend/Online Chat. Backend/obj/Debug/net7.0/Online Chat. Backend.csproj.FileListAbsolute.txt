@@ -31,3 +31,17 @@ E:\Программирование\Проекты\Онлайн чат\Online Ch
 E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\obj\Debug\net7.0\Online Chat. Backend.pdb
 E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\obj\Debug\net7.0\Online Chat. Backend.genruntimeconfig.cache
 E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\obj\Debug\net7.0\ref\Online Chat. Backend.dll
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\bin\Debug\net7.0\Microsoft.Bcl.TimeProvider.dll
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\bin\Debug\net7.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\bin\Debug\net7.0\Microsoft.Extensions.Caching.Hybrid.dll
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\bin\Debug\net7.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\bin\Debug\net7.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\bin\Debug\net7.0\Pipelines.Sockets.Unofficial.dll
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\bin\Debug\net7.0\StackExchange.Redis.dll
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\bin\Debug\net7.0\System.Text.Encodings.Web.dll
+E:\Программирование\Проекты\Онлайн чат\Online Chat. Backend\Online Chat. Backend\bin\Debug\net7.0\System.Text.Json.dll
