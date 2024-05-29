@@ -1,0 +1,6 @@
+﻿services:
+  online chat. redis:
+    image: redis
+    restart: always
+    ports:
+      - "6379:6379"

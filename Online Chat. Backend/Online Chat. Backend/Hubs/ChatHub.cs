@@ -22,7 +22,7 @@ public class ChatHub: Hub<IChatClient>
     {
         await Groups.AddToGroupAsync(Context.ConnectionId, connection.chatRoom);
 
-        var stringConnection= JsonSerializer.Serialize(connection);
+        var stringConnection = JsonSerializer.Serialize(connection);
         
         await _cache.SetStringAsync(Context.ConnectionId, stringConnection);
         

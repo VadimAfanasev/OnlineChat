@@ -1,16 +1,36 @@
 {
   "version": 2,
-  "dgSpecHash": "pQmaOm0iCvcYUStsKcYHIS/kDRRg6JxiW46LrP/vN+FMPbWAlMtW5y1blNzdDnv9Ba58Cba9sK2Pc6QVdZRwuQ==",
+  "dgSpecHash": "D18s5kfWyO0y2uVnVmnBr11zfkCFzCIDXCW9RAR5vhjC0kAOiqJsUmu+TjlG4dWcE/w3pgsvR7lBSerWX8FBBA==",
   "success": true,
   "projectFilePath": "E:\\Программирование\\Проекты\\Онлайн чат\\Online Chat. Backend\\Online Chat. Backend\\Online Chat. Backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Вадим\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.7\\microsoft.aspnetcore.openapi.7.0.7.nupkg.sha512",
+    "C:\\Users\\Вадим\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\9.0.0-preview.4.24266.19\\microsoft.bcl.asyncinterfaces.9.0.0-preview.4.24266.19.nupkg.sha512",
+    "C:\\Users\\Вадим\\.nuget\\packages\\microsoft.bcl.timeprovider\\9.0.0-preview.4.24266.19\\microsoft.bcl.timeprovider.9.0.0-preview.4.24266.19.nupkg.sha512",
     "C:\\Users\\Вадим\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Вадим\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.0-preview.4.24266.19\\microsoft.extensions.caching.abstractions.9.0.0-preview.4.24266.19.nupkg.sha512",
+    "C:\\Users\\Вадим\\.nuget\\packages\\microsoft.extensions.caching.hybrid\\9.0.0-preview.4.24267.6\\microsoft.extensions.caching.hybrid.9.0.0-preview.4.24267.6.nupkg.sha512",
+    "C:\\Users\\Вадим\\.nuget\\packages\\microsoft.extensions.caching.memory\\9.0.0-preview.4.24266.19\\microsoft.extensions.caching.memory.9.0.0-preview.4.24266.19.nupkg.sha512",
+    "C:\\Users\\Вадим\\.nuget\\packages\\microsoft.extensions.caching.stackexchangeredis\\9.0.0-preview.4.24267.6\\microsoft.extensions.caching.stackexchangeredis.9.0.0-preview.4.24267.6.nupkg.sha512",
+    "C:\\Users\\Вадим\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0-preview.4.24266.19\\microsoft.extensions.dependencyinjection.abstractions.9.0.0-preview.4.24266.19.nupkg.sha512",
+    "C:\\Users\\Вадим\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.0-preview.4.24266.19\\microsoft.extensions.logging.abstractions.9.0.0-preview.4.24266.19.nupkg.sha512",
+    "C:\\Users\\Вадим\\.nuget\\packages\\microsoft.extensions.options\\9.0.0-preview.4.24266.19\\microsoft.extensions.options.9.0.0-preview.4.24266.19.nupkg.sha512",
+    "C:\\Users\\Вадим\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.0-preview.4.24266.19\\microsoft.extensions.primitives.9.0.0-preview.4.24266.19.nupkg.sha512",
     "C:\\Users\\Вадим\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\Вадим\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "C:\\Users\\Вадим\\.nuget\\packages\\stackexchange.redis\\2.7.27\\stackexchange.redis.2.7.27.nupkg.sha512",
     "C:\\Users\\Вадим\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\Вадим\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\Вадим\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
-    "C:\\Users\\Вадим\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+    "C:\\Users\\Вадим\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "C:\\Users\\Вадим\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\Вадим\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\Вадим\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
+    "C:\\Users\\Вадим\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\Вадим\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Вадим\\.nuget\\packages\\system.text.encodings.web\\9.0.0-preview.4.24266.19\\system.text.encodings.web.9.0.0-preview.4.24266.19.nupkg.sha512",
+    "C:\\Users\\Вадим\\.nuget\\packages\\system.text.json\\9.0.0-preview.4.24266.19\\system.text.json.9.0.0-preview.4.24266.19.nupkg.sha512",
+    "C:\\Users\\Вадим\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
   "logs": []
 }
