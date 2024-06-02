@@ -44,4 +44,22 @@ public class ChatHub: Hub<IChatClient>
                 .ReceiveMessage(connection.userName, message);
         }
     }
+
+    public override async Task OnDisconnectedAsync(Exception? exception)
+    {
+        var stringConnection = await _cache.GetAsync(Context.ConnectionId);
+        var connection = JsonSerializer.Deserialize<UserConnection>(stringConnection);
+
+        if (connection is not null)
+        {
+            await _cache.RemoveAsync(Context.ConnectionId);
+            await Groups.RemoveFromGroupAsync(Context.ConnectionId, connection.chatRoom);
+
+            await Clients
+                .Group(connection.chatRoom)
+                .ReceiveMessage("Admin", $"{connection.userName} присоединился к чату");
+        }
+        
+        await base.OnDisconnectedAsync(exception);
+    }
 }

@@ -4,9 +4,10 @@ import { useState } from "react";
 
 export const Chat = ({messages, chatRoom, closeChat, sendMessage}) => {
    const [message, setMessage] = useState("");
+   const messegeEndRef = useRef();
    
    const onSendMessage = () => {
-    sendMessage(message)
+    sendMessage(message);
     setMessage("");
    };
 
@@ -21,6 +22,7 @@ export const Chat = ({messages, chatRoom, closeChat, sendMessage}) => {
                 {messages.map((messageInfo, index) => (
                     <Message messageInfo={messageInfo} key={index}/>
                 ))}
+                <spean ref={messegeEndRef} />
             </div>
             <div className="flex gap-3">
                 <Input 
