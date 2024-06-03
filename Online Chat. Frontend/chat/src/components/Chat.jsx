@@ -1,11 +1,15 @@
 import { Button, CloseButton, Heading, Input } from "@chakra-ui/react";
 import { Message } from "./Message";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export const Chat = ({messages, chatRoom, closeChat, sendMessage}) => {
    const [message, setMessage] = useState("");
    const messegeEndRef = useRef();
    
+    useEffect(() => {
+        messegeEndRef.current.scrollIntoView();
+    }, [messages]);
+
    const onSendMessage = () => {
     sendMessage(message);
     setMessage("");
@@ -29,6 +33,11 @@ export const Chat = ({messages, chatRoom, closeChat, sendMessage}) => {
                     type="text" 
                     value={message} 
                     onChange={(e) => setMessage(e.target.value)} 
+                    onKeyDown ={(e) => {
+                        if (e.key === 'Enter') {
+                          onSendMessage();
+                        }
+                      }}
                     placeholder="Введите сообщение"
                 />
                 <Button colorScheme="blue" onClick={onSendMessage}>

@@ -1,5 +1,5 @@
 ﻿services:
-  online chat. redis:
+  online-chat-redis:
     image: redis
     restart: always
     ports:

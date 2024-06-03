@@ -20,15 +20,15 @@ public class ChatHub: Hub<IChatClient>
     
     public async Task JoinChat(UserConnection connection)
     {
-        await Groups.AddToGroupAsync(Context.ConnectionId, connection.chatRoom);
+        await Groups.AddToGroupAsync(Context.ConnectionId, connection.ChatRoom);
 
         var stringConnection = JsonSerializer.Serialize(connection);
         
         await _cache.SetStringAsync(Context.ConnectionId, stringConnection);
         
         await Clients
-            .Group(connection.chatRoom)
-            .ReceiveMessage("Admin", $"{connection.userName} присоединился к чату");
+            .Group(connection.ChatRoom)
+            .ReceiveMessage("Admin", $"{connection.UserName} присоединился к чату");
     }
 
     public async Task SendMessage(string message)
@@ -40,8 +40,8 @@ public class ChatHub: Hub<IChatClient>
         if (connection is not null)
         {
             await Clients
-                .Group(connection.chatRoom)
-                .ReceiveMessage(connection.userName, message);
+                .Group(connection.ChatRoom)
+                .ReceiveMessage(connection.UserName, message);
         }
     }
 
@@ -53,11 +53,11 @@ public class ChatHub: Hub<IChatClient>
         if (connection is not null)
         {
             await _cache.RemoveAsync(Context.ConnectionId);
-            await Groups.RemoveFromGroupAsync(Context.ConnectionId, connection.chatRoom);
+            await Groups.RemoveFromGroupAsync(Context.ConnectionId, connection.ChatRoom);
 
             await Clients
-                .Group(connection.chatRoom)
-                .ReceiveMessage("Admin", $"{connection.userName} присоединился к чату");
+                .Group(connection.ChatRoom)
+                .ReceiveMessage("Admin", $"{connection.UserName} присоединился к чату");
         }
         
         await base.OnDisconnectedAsync(exception);

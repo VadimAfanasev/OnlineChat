@@ -25,6 +25,6 @@ builder.Services.AddSignalR();
 
 var app = builder.Build();
 
-app.UseCors();
 app.MapHub<ChatHub>("/chat");
+app.UseCors();
 app.Run();

@@ -1,6 +1,3 @@
 namespace Online_Chat._Backend.Models;
 
-public record UserConnection(string userName, string chatRoom)
-{
-    
-}
+public record UserConnection(string UserName, string ChatRoom);

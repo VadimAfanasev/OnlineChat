@@ -32,12 +32,12 @@ function App() {
 
   const sendMessage = (message) => {
   connection.invoke("SendMessage", message);
-  }
+  };
 
   const closeChat = async () => {
     await connection.stop();
     setConnection(null);
-  }
+  };
 
   return (
   <div className="min-h-screen flex items-center justify-center bg-gray-100">
